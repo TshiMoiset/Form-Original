@@ -3,9 +3,6 @@
 body {
   font-family: "Texturina", serif;
   background: black;
-  color: #2e3192;
-  color: #29aae1;
-  color: #0071bd;
 }
 
 main,
@@ -18,12 +15,35 @@ footer {
 header {
   text-align: center;
   text-decoration: underline;
+  color: #29aae1;
+}
+
+fieldset {
+  border: solid 2px #29aae1;
+}
+
+legend {
+  color: #29aae1;
+  font-weight: 600;
+}
+
+label {
+  color: #0071bd;
+  cursor: pointer;
 }
 
 input[type="submit"] {
   padding: 5px 100px;
-  border: outset;
-  border: solid 2px #29aae1;
-  border-radius: 20px;
-  background: #2e3192;
+  border: solid 2px #0071bd;
+  border-radius: 2px;
+  background: #29aae1;
+  cursor: pointer;
 }
+
+input[type="radio"] {
+  cursor: pointer;
+}
+
+/*  color: #2e3192;
+color: #29aae1;
+color: #0071bd; */
