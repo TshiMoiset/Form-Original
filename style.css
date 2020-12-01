@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap");
+
+body {
+  font-family: "Texturina", serif;
+  color: #2e3192;
+  color: #29aae1;
+  color: #0071bd;
+}
+
+main,
+footer {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+input[type="submit"] {
+  padding: 5px 100px;
+  border: outset;
+  border: solid 2px #29aae1;
+  background: #2e3192;
+}
