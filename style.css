@@ -5,10 +5,13 @@ body {
   background: black;
 }
 
-main,
-footer {
-  margin-left: 15vw;
-  margin-right: 15vw;
+h3 {
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -42,6 +45,10 @@ input[type="submit"] {
 
 input[type="radio"] {
   cursor: pointer;
+}
+
+footer {
+  text-align: center;
 }
 
 /*  color: #2e3192;
