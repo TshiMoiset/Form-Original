@@ -44,12 +44,25 @@ input[type="button"] {
   cursor: pointer;
 }
 
+button {
+  padding: 5px 100px;
+  border: solid 2px #0071bd;
+  border-radius: 2px;
+  background: #29aae1;
+  cursor: pointer;
+}
+
 input[type="radio"] {
   cursor: pointer;
 }
 
 footer {
   text-align: center;
+}
+
+.invisible {
+  display: none;
+  color: #29aae1;
 }
 
 /*  color: #2e3192;
