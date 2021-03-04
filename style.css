@@ -10,8 +10,8 @@ h3 {
 }
 
 main {
-  display: flex;
-  justify-content: space-around;
+  margin-left: 20vw;
+  margin-right: 20vw;
   text-align: center;
 }
 
@@ -33,9 +33,10 @@ legend {
 label {
   color: #0071bd;
   cursor: pointer;
+  text-align: center;
 }
 
-input[type="submit"] {
+input[type="button"] {
   padding: 5px 100px;
   border: solid 2px #0071bd;
   border-radius: 2px;
