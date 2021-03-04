@@ -36,14 +36,6 @@ label {
   text-align: center;
 }
 
-input[type="button"] {
-  padding: 5px 100px;
-  border: solid 2px #0071bd;
-  border-radius: 2px;
-  background: #29aae1;
-  cursor: pointer;
-}
-
 button {
   padding: 5px 100px;
   border: solid 2px #0071bd;
@@ -62,6 +54,9 @@ footer {
 
 .invisible {
   display: none;
+}
+
+.result {
   color: #29aae1;
 }
 
